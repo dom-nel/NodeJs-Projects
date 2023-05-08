@@ -1,0 +1,33 @@
+<html>
+
+	<head>
+		<title> HomePage</title>
+		<link rel="stylesheet" href="/css/styles.css">
+		<link rel="icon" href="/images/weathericon.png">
+		
+	</head>
+	
+	<body>
+		<div class="main-content">
+		{{>header}}
+		
+			<h2>Use this site to get your weather!</h2>
+			<form>
+				<input placeholder="Enter a city">
+				<button>Search</button>
+			</form>
+			<div id="message1"></div>
+			<div id="cityState"></div><br>
+			<div id="currentWeather"></div><br>
+			<div id="message2"></div>
+			<div id="currentTemp"></div><br>
+			<div id="message3"></div>
+			<div id="feelsLikeTemp"></div><br>
+			<div id="message4"></div>
+			<div id="time"></div>
+			
+		</div>
+		{{>footer}}
+		<script src="/js/app.js"></script>
+	</body>
+</html>

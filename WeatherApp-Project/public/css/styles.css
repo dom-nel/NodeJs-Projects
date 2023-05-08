@@ -1,0 +1,133 @@
+h1 {
+	color: green;
+	
+}
+
+img {
+	width: 100px;
+}
+
+body{
+	font-family:arial;
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 0 20px;
+	
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.main-content{
+	flex-grow: 1;
+}
+
+.errorMessage{
+	color: red;
+}
+
+footer{
+	font-size: 20px;
+	color: grey;
+	text-align: center;
+	margin: 16px;
+	padding: 16px;
+	border-top: 2px solid black;
+}
+
+header{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+header h1{
+	font-size: 60px;
+	margin-bottom: 16px;
+	text-align: center;
+	border-bottom: 2px solid black;
+	margin: 16px;
+	padding: 16px;
+}
+
+header a{
+	color: green;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+	text-align: center;
+	
+}
+
+#message1 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder:
+}
+
+#cityState{
+	text-align: center;
+	font-size: 20px;
+	font-weight:bolder;
+	font-style: italic;
+	color: green;
+}
+
+#currentWeather{
+	text-align: center;
+	font-size: 16px;
+	font-weight:bolder;
+	color: orange;
+}
+
+#message2 {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder:
+
+}
+
+#currentTemp{
+	text-align: center;
+	font-size: 16px;
+	font-weight:bolder;
+	font-style: italic;
+
+}
+
+#message3 {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder:
+	color: green;
+}
+
+#feelsLikeTemp{
+	text-align: center;
+	font-size: 16px;
+	font-weight:bolder;
+	font-style: italic;
+	color: green;
+}
+
+#message4 {
+	text-align: center;
+	font-size: 12px;
+	font-weight: bolder:
+
+
+#time{
+	text-align: center;
+	font-size: 12px;
+	font-weight:bolder;
+	font-style: italic;
+	
+}
+
+input {
+	border: 1px solid green;
+	padding: 15px;
+}
+
+button {
+	cursor: pointer;
+}
